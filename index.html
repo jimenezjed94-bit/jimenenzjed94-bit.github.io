@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+body {
+    background-color:steelblue;
+    border: 3px double darkkhaki;
+    text-align: center;
+    font-family: fantasy;
+    color: midnightblue;
+}
+
+header {
+    background-color:steelblue;
+    border: 5px outset cornflowerblue;
+    width:80%;
+    height:auto;
+    margin:10px;
+    padding:20px;
+    text-align:center;
+    font-family:bold;
+    color: lightsteelblue;
+    font-size:18px;
+}
+
+nav {
+    background-color:steelblue;
+    border: 3px inset cornflowerblue;
+    text-align:center;
+    margin:5px;
+    font-family:bold;
+    color: midnightblue;
+    font-size:18px;
+}
+
+nav a {
+    background-color:steelblue;
+    border: 3px solid dodgerblue;
+    text-align:center;
+    font-family:bold;
+    color: midnightblue;
+    width:50%;
+    height:50px;
+    margin:20px;
+    padding:15px;
+    font-size:17px;
+}
+
+#entries {
+    border: 6px dashed maroon;
+    background-color: darkkhaki;
+    margin:10px;
+    padding:30px;
+    color:palegoldenrod;
+    text-align:center;
+}
+
+.entry {
+    background: maroon;
+    margin-bottom:25px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0px 0px 8px rgba(0,0,0,0.1);
+}
+
+.entry h2 {
+    margin-top:8;
+}
+
+.entry small {
+    color:#ff9d00;
+}
+
+footer {
+    background: maroon;
+    color:black;
+    text-align:center;
+    padding:10px 0;
+}
+
+@media  {
+    nav a {
+        display:block;
+        margin:8px 0;
+        width:88%;
+        height:auto;
+    }
+}
+
+#about  {
+       border: 3px dashed khaki;
+       background-color:brown;
+       margin:10px;
+       padding:10px;
+       font-family:bold;
+       color: khaki;
+       text-align:center;
+    }
+    
+#home   {
+       border: 3px dashed khaki;
+       background-color: maroon;
+       margin:10px;
+       padding:105px;
+       width: auto;
+       font-family:bold;
+       color: khaki;
+       
+    }
+    
+#contact {
+       border: 6px outset khaki;
+       background-color: darkred;
+       margin:10px;
+       padding:30px;
+       color:palegoldenrod;
+       text-align: center;
+    }
+    
+.body {
+    background-color: #90EE90;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 40px;
+}
+
+.h1 {
+    text-align: center;
+    font-family: Georgia, serif;
+    color: darkgreen;
+}
+     
+     
+     ict-club-section h3 
+            color: olive;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .about-club {
+            font-family: Times New Roman, serif;
+            color: olive;
+            font-size: 15px;
+            width: 80%;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        .announce-box {
+            width: 80%;
+            margin: 20px auto;
+            border: 2px solid olive;
+            padding: 15px;
+            text-align: left; 
+        }
+
+        .announce-box h2 {
+            color: olive;
+        }
+
+        .announce-box p {
+            font-size: 14px;
+        }
+
+        .button {
+            background-color: darkgreen;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 8px;
+            margin-left: 10px;
+        }
+
+        .button:hover {
+            background-color: #45a049;
+        }
+        
+        
+        .title {
+            background-color: lightsteelblue;
+            border: 3px dashed steelblue;
+            text-align: center;
+            font-family: fantasy;
+            color: cornflowerblue;
+        }
+
+        .character {
+            background-color: palegoldenrod;
+            border: 3px double darkkhaki;
+            height: 90px;
+            width: auto;
+            margin: 10px;
+            text-align: center;
+            font-family: cursive;
+            color: Sienna;
+            font-size: 13px;
+        }
+
+        .setting {
+            background-color: khaki;
+            border: 3px double darkkhaki;
+            margin: 10px;
+            text-align: center;
+            font-family: cursive;
+            color: olive;
+        }
+
+        .conflict {
+            background-color: lemonchiffon;
+            border: 3px double palegoldenrod;
+            margin-left: 12px;
+            margin-right: 12px;
+            text-align: center;
+            font-family: fantasy;
+            color: lightsalmon;
+            font-size: 15px;
+            height: auto;
+            padding-top: 2px;
+            padding-bottom: 2px;
+        }
+
+        .lesson {
+            border: 3px dashed darksalmon;
+            background-color: peachpuff;
+            margin: 10px;
+            padding: 3px;
+            font-family: cursive;
+            color: maroon;
+            text-align: center;
+        }
+    
+</style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Web Journal</title>
+
+</head>
+
+<body>
+
+<header>
+<h1>My Web Journal</h1>
+<p>Performance Task from 1st to 4th Quarter and some Personal thoughts.</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About Me</a>
+<a href="#entries">Entries</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home">
+    <article class="home">        
+    <h1>Welcome to My Webpage</h1>
+</article>
+
+    <article class="home">        
+    <h3>This Webpage is an entry from 1st to 4th Quarter</h3>
+</article>
+
+<article class="home">        
+    <h3>For quick access use the Navigation Buttons above this section</h3>
+</article>
+
+</section>
+
+<section id="about">
+    <article class="about">        
+    
+<h2>About Me</h2>
+
+<section id="about">
+    <article class="about">
+<p>Jed Nathaniel P. Jimenez </p>
+</article>
+</section>
+
+<section id="about">
+    <article class="about">
+<p>Male </p>
+</article>
+</section>
+
+<section id="about">
+    <article class="about">
+<p>Purok 4, Sinakayanan, Catigbian, Bohol</p>
+</article>
+</section>
+
+<section id="about">
+    <article class="about">
+<p>I am 15 years old</p>
+</article>
+</section>
+
+<section id="about">
+    <article class="about">
+<p>November 19, 2010</p>
+</article>
+</section>
+
+<section id="about">
+    <article class="about">
+<p>Citizenship: Single</p>
+</article>
+</section>
+
+
+<h2>About This Performance Task</h2>
+<p>This Performance Task was a challenge for me but it still helped me a lot, understanding on how to create a GitHub account and more.It was fun coding especially creating or search for new designs to put inside the code.</p>
+
+</article>
+</section>
+
+<section id="entries">
+
+<article class="entry">
+<h2>Quarter 1st</h2>
+<small>My Profile</small>
+
+<p>
+Today I learned how to code it was of course exhausting but i still tried, creating this code was exhausting.Our first coding was creating a Profile about us.
+</p>
+
+
+<title>My Profile</title>
+</head>
+
+<body>
+
+<h1>Jed Nathaniel P. Jimenez</h1>
+
+<p>
+Hi! My name is Jed, and I am a Grade 9 student who likes exploring new things
+<br><br>
+I also love discovering things with my friends of course especially fun things.
+<br><br>
+I also enjoy playing online games.
+</p>
+
+<h2 class="highlight">My Hobbies & Interests</h2>
+
+<ul>
+<li>Playing Online games</li>
+<li>Playing Board games</li>
+<li>Watching Movies</li>
+</ul>
+
+
+<div class="favorite">
+<p>Check out my favorite website here:</p>
+
+<a href="https://www.youtube.com/" target="_blank">Visit YouTube</a>
+
+</div>
+
+</article>
+
+<article class="entry">
+<h2>Quarter 2nd</h2>
+<small>Activity</small>
+
+<p>We learned how to create a table using codes and it was a bit challenging for me for a person who doesn't understand coding huhu</p>
+
+
+<p>We also created a Announcement using margin and others code i do not know the name hehe</p>
+
+<div class="ict-club-section"> 
+    
+<h3>ICT Club Announcement</h3>
+
+                <p class="about-club">
+                    The ICT Club is a group of students who explore technically, improves digital skills,and work together on creative and innovative projects.
+                </p>
+
+                <div class="announce-box">
+                        <p>
+                        All  Grade 9 students are invited to join the ICT Club. Learn coding, computer basics, and teamwork skills.
+                    </p>
+                </div>
+
+                <a href="https://ict-club.pages.dev/" class="button">JOIN THE CLUB!</a>
+            </div>
+        </article>
+
+</article>
+
+<article class="entry">
+<h2>Quarter 3rd</h2>
+<small>The Lantern in the Storm</small>
+
+<p>
+Third entry, it is about The Lantern in the Storm, the story was exciting and fun to code but of course it was tiring if you don't know how like me HWHAHAHA
+</p>
+
+<head>
+    <title>The Lantern in the Storm</title>
+    </head>
+<body>
+    <div class="title">
+        <h1>THE LANTERN IN THE STORM</h1>
+    </div>
+
+    <div class="character">
+        <h2>Character:</h2>
+        Eli-a young boy who loves the sea.
+    </div>
+
+    <div class="setting">
+        <p>Setting:<br>In a small coastal village.</p>
+    </div>
+
+    <div class="conflict">
+        <p>Conflict:<br>A violent storm hits the village, and the critical lighthouse lamp goes out, leaving ships struggling in the dark and causing panic among villagers.</p>
+    </div>
+
+    <div class="lesson">
+        <p>Moral Lesson:<br>Even a small light can make a big difference when others are lost. Bravery means acting to help despite fear, and every small act of courage has a profound impact on those in need.</p>
+    </div>
+</body>
+
+</article>
+
+<article class="entry">
+<h2>Quarter 4th</h2>
+<p>Out PT this 4th quarter is to make a webpage which we are doing right now. it's a bit challenging but through a lot of asking i think I can do this HAHAHAHA</p>
+</article>
+</section>
+
+<section id="contact">
+    <article="contact">
+<h2>Contact</h2>        
+<small>Phone Number:</small>
+<p>09463499512</p>
+<small>Gmail:</small>
+<p>jimenezjed94@gmail.com</p>
+<small>Facebook:</small>
+<p>Jed Jimenez</p>
+</article>
+</section>
+
+<footer>
+    <p>@MyWebPage</p>
+</footer>
+
+
+</body>
+</html>
